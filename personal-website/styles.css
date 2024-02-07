@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "AmericanPsycho.ttf";
+    src: url("/font.ttf") format("truetype"); /* Adjust the path and format if needed */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.rotate-effect {
+    transform: scale(0.7) rotate(10deg); /* Start small and rotated */
+    transition: transform 1.5s ease; /* Smooth transition for rotation and scaling */
+}
+
+.center-box {
+    position: relative;
+    width: 525px; /* Adjusted width: 525px * 0.7 = 366.75px */
+    height: 300px; /* Adjusted height: 300px * 0.7 = 210px */
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(73, 73, 73, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.center-box.rotate-effect {
+        transform: scale(0.6) rotate(10deg); /* Start small and rotated */
+        transition: transform 1.5s ease; /* Smooth transition for rotation and scaling */
+}
+
+.center-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "americanpsycho.ttf";
+    font-size: 25px;
+    color: black;
+    margin: 0;
+}
+
+.subtext {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "americanpsycho.ttf";
+    font-size: 13px;
+    color: black;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.top-center-text {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);  
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 17px;
+}
+
+.top-left-text {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 17px;
+}
+
+.top-right-text {
+    position: absolute;
+    top: -7px;
+    right: 15px;
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 17px;
+}
+
+.top2-left-text {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 17px;
+}
+
+.top2-right-text {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 17px;
+}
+
+.bottom-center-text {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;   
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 12px;
+}
+
+
+.bottom-left-text {
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+    transform: translateX(-50%);
+    margin: 0;   
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 12px;
+}
+
+.bottom-right-text {
+    position: absolute;
+    bottom: 20px;
+    left: 75%;
+    transform: translateX(-50%);
+    margin: 0;   
+    color: black;
+    font-family: "americanpsycho.ttf";
+    font-size: 12px;
+}
+
+.my-list {
+    font-weight: 600;
+    position: absolute;
+    top: 25px;
+    left: -15px;
+    color: black;
+    font-family: "americanpsycho.ttf";
+    list-style: none;
+}
+
+.my-list li {
+    margin-bottom: 10px;
+}
+
+.my-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+}
+
+.my-list a:hover {
+    text-decoration: underline;
+}
+
+.my-list2 {
+    font-weight: 600;
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: black;
+    font-family: "americanpsycho.ttf";
+    list-style: none;
+}
+
+.my-lis2 li {
+    margin-bottom: 10px;
+}
+
+.my-list2 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+}
+
+.my-list2 a:hover {
+    text-decoration: underline;
+}
+
+.center-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
